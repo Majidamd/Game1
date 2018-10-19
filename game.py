@@ -196,14 +196,9 @@ def menu(exits):
 
         # Check if the input makes sense (is valid exit)
             # If so, return the player's choice
-        if is_valid_exit(exits,playerInput):
+        if is_valid_exit(exits, playerInput):
             return playerInput
-        else:
-            print('Invalid Choice please try again')
-
-
-
-
+        
 
 def move(exits, direction):
     """This function returns the room into which the player will move if, from a
